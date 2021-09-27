@@ -1,0 +1,88 @@
+body{
+    
+    font-family: arial;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    margin-top: 2rem;
+    background-image: linear-gradient(to bottom, #4B3869, rgb(240, 227, 227));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+.header_div{
+    display: flex;
+}
+.header_div img{
+    width: 200px;
+    height: 150px;
+}
+
+.main_header{
+    flex-grow: 1;
+    color: white;
+}
+.book_img{
+    width: 400px;
+    height: 300px;
+}
+
+footer{
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    color: white;
+}
+.cloud_img_1{
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 16px;
+    font-style: bold;
+    color: #FEFBF3;
+}
+header a{
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+input{
+    outline: none;
+    width: 15rem;
+    height: 2rem;
+    padding: 0.1rem 1rem;
+    border-color: #664E88;
+    border-style: solid;
+    border-radius: 0.2rem;
+}
+button{
+    width: 6rem;
+    height: 2.5rem;
+    padding: 0.1rem 0.2rem;
+    border-color: white;
+    border-style: solid;
+    border-radius: 2rem; 
+    background-color: white;
+    color: #664E88;
+}
+
+#message-1, #message-2{
+    color:#664E88 ;
+    font-weight: 100;
+    font-family: arial;
+}
